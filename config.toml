@@ -1,0 +1,52 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "ReCast - a multi platform restreaming tool"
+theme = "hugo-elate-theme"
+
+# Meta
+author = "ReCast"
+description = "ReCast is a multi platform streaming tool, you can stream with one servers to multiple services"
+email = "admin@recast.in"
+
+# Navigation
+[params.navigation]
+brand = "ReCast"
+home = "Home"
+work = "Work"
+testimonials = "Testimonials"
+services = "Services"
+about = "About"
+contact = "Contact"
+
+# Hero section
+[params.hero]
+title = "You love streaming?"
+subtitle = "But you can't stream to multiple platforms simultaneously?<br>Try ReCast!"
+
+# Intro section
+# Available icons: http://simplelineicons.com/
+[params.intro]
+
+[[params.intro.item]]
+title = "Stream once"
+description = "Stream throught one server simultaneously to Mixer, Youtube and other platforms"
+url = "https://app.recast.in"
+button = "Try ReCast free hosted"
+icon = "icon-energy"
+img = "img_7.jpg"
+
+[[params.intro.item]]
+title = "One Chat multiple platforms"
+description = "Multiple platforms makes chat reading hard, we know that problem. We are working on a solution to combine all platforms to a single chat window"
+url = "#"
+button = "Coming Soon"
+icon = "icon-bubbles"
+img = "img_8.jpg"
+
+[[params.intro.item]]
+title = "Opensource"
+description = "ReCast is open source. You can host it also easily on a Linux VPS."
+url = "https://github.com/recastin/panel"
+button = "Github"
+icon = "icon-rocket"
+img = "img_10.jpg"
