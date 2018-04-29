@@ -12,9 +12,8 @@ email = "admin@recast.in"
 [params.navigation]
 brand = "ReCast"
 home = "Home"
-work = "Work"
-testimonials = "Testimonials"
-services = "Services"
+#testimonials = "Testimonials"
+services = "Getting started"
 about = "About"
 contact = "Contact"
 
@@ -50,3 +49,159 @@ url = "https://github.com/recastin/panel"
 button = "Github"
 icon = "icon-rocket"
 img = "img_10.jpg"
+
+# We need one :3
+#[params.testimonials]
+#enable = true
+#title = "Testimonials"
+#description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+#
+#[[params.testimonials.item]]
+#  quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+#  person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+#  img = "person1.jpg"
+#  alt = "Person1"
+#
+#[[params.testimonials.item]]
+#  quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+#  person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+#  img = "person2.jpg"
+#  alt = "Person2"
+#
+#[[params.testimonials.item]]
+#  quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+#  person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+#  img = "person3.jpg"
+#  alt = "Person3"
+
+
+
+
+# Services section
+[params.services]
+enable = true
+title = "Getting started with ReCast"
+#description = 'As first you will need a <a href="https://app.recast.in">Account</a>'
+
+[[params.services.item]]
+  title = "Create a Account"
+  description = "You will need a account as first, so you can manage all the settings and get your stream url and stream key for ReCast"
+  icon = "icon-user"
+
+[[params.services.item]]
+  title = "Stream to ReCast"
+  description = "Use ReCast stream url, stream key and ReCast will make the magic happens :)"
+  icon = "icon-video2"
+
+[[params.services.item]]
+  title = "ReCast restreams to Youtube, Twitch etc."
+  description = "ReCast copies your stream and redirects its directly to YouTube, Twitch etc simultaneously!"
+  icon = "icon-video2"
+
+  [[params.services.item]]
+  title = "Your Stream is everywhere live"
+  description = "After all the magic happens, you will see that your stream is live"
+  icon = "icon-monitor"
+
+# About section
+[params.about]
+enable = true
+title = "About us"
+description = "About our small Team!"
+
+[[params.about.item]]
+  name = "Shyim"
+  position = "Web Developer"
+  description = "Loves to build Web Applications <3"
+  img = "https://gravatar.com/avatar/85ffbb5d11eba06665ade944a96ef92f?s=200"
+  alt = "Shyim"
+  social = [
+    ["icon-twitter", "https://twitter.com/Shyim97"],
+    ["icon-github", "https://github.com/shyim"],
+  ]
+
+[[params.about.item]]
+  name = "MnkyArts"
+  position = "Designer"
+  description = "Likes to build modern logos and ui's"
+  img = "https://gravatar.com/avatar/1fed9b9572c0a343b4c4f95d4e4d1ceb?s=200"
+  alt = "MnkyArts"
+  social = [
+    ["icon-twitter", "https://twitter.com/MnkyArts_"],
+    ["icon-github", "https://github.com/Galaxy200"]
+  ]
+
+[[params.about.item]]
+  name = "You?"
+  position = "Unknown"
+  description = "We are searching contributors"
+  img = "https://gravatar.com/avatar/asdasddasas?s=200"
+  alt = "Person3"
+  social = []
+
+# Counters section
+#[params.counters]
+#enable = true
+#title = "Stats"
+#background = "full_image_1.jpg"
+#
+#[[params.counters.item]]
+#  description = "Finished projects"
+#  icon = "icon-briefcase"
+#  from = 0
+#  to = 89
+#  interval = 50
+#  speed = 5000
+#
+#[[params.counters.item]]
+#  description = "Lines of code"
+#  icon = "icon-code"
+#  from = 0
+#  to = 2343409
+#  interval = 50
+#  speed = 5000
+#
+#[[params.counters.item]]
+#  description = "Cups of coffee"
+#  icon = "icon-cup"
+#  from = 0
+#  to = 1302
+#  interval = 50
+#  speed = 5000
+#
+#[[params.counters.item]]
+#  description = "Happy clients"
+#  icon = "icon-people"
+#  from = 0
+#  to = 52
+#  interval = 50
+#  speed = 5000
+
+# Contact section
+#[params.contact]
+#enable = true
+#map = false
+#form = true
+#title = "Get in touch"
+#description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+#details = [
+#    ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+#    ["icon-phone", "(123) 465-6789"],
+#    ["icon-envelope", "info@freehtml5.co"],
+#    ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+#  ]
+#
+#name = "Name"
+#email = "Email"
+#phone = "Phone"
+#message = "Message"
+#button = "Send message"
+
+# Footer section
+[params.footer]
+enable = true
+copyright = '&copy; 2018 ReCast'
+links = [
+    ["icon-github", "https://github.com/recastin/panel"]
+  ]
