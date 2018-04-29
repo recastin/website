@@ -6,8 +6,10 @@
     {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
     {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
     {{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
+    <meta property="og:type" content="website" />
     <meta property="og:site_name" content="{{ .Site.Title }}">
-    <meta property="og:title" content="Stream to multiple platforms simultaneously!">
+    <meta property="og:title" content="{{ .Site.Title }}">
+    <meta property="og:description" content="Stream to multiple platforms simultaneously!" />
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:image" content="{{ .Site.BaseURL }}img/share.jpg">
 
