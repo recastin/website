@@ -203,5 +203,6 @@ description = "About our small Team!"
 enable = true
 copyright = '&copy; 2018 ReCast <br>Theme created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
 links = [
-    ["icon-github", "https://github.com/recastin/panel"]
+    ["icon-github", "https://github.com/recastin/panel"],
+    ["icon-support", "https://discord.gg/KGx24WD"]
   ]
