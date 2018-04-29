@@ -1,0 +1,64 @@
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> {{ .Title }}</title>
+    <link rel=icon type=image/png sizes=96x96 href="/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+    {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+    {{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
+    <meta name="og:site_name" content="{{ .Site.Title }}">
+    <meta name="og:title" content="Stream to multiple platforms simultaneously!">
+    <meta name="og:url" content="{{ .Permalink }}">
+    <meta name="og:image" content="{{ .Site.BaseURL }}images/{{ .Site.Params.sidebar.avatar }}">
+
+    <meta name="twitter:title" content="{{ .Site.Title }}" />
+    <meta name="twitter:url" content="{{ .Permalink }}" />
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}images/{{ .Site.Params.sidebar.avatar }}" />
+    <meta name="twitter:card" content="" />
+
+    <!-- canonical link tag -->
+    <link rel="canonical" href="{{ .Permalink }}"/>
+
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Simple Line Icons -->
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- 
+    Default Theme Style 
+    You can change the style.css (default color purple) to one of these styles
+    
+    1. pink.css
+    2. blue.css
+    3. turquoise.css
+    4. orange.css
+    5. lightblue.css
+    6. brown.css
+    7. green.css
+
+    -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--
+       custom css files can be configured in config.toml:
+       [params]
+          custom_css = ["css/foo.css", "css/bar.css"]
+     -->
+    {{ range .Site.Params.custom_css }}
+    <link rel="stylesheet" href="{{ . }}">
+    {{ end }}
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
