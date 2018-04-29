@@ -128,7 +128,7 @@ description = "About our small Team!"
   alt = "MnkyArts"
   social = [
     ["icon-twitter", "https://twitter.com/MnkyArts_"],
-    ["icon-github", "https://github.com/Galaxy200"]
+    ["icon-github", "https://github.com/MnkyArts"]
   ]
 
 [[params.about.item]]
